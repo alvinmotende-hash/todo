@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+header{
+    text-align: center;
+    white-space: inherit;
+    margin-bottom: 25px;
+    line-height: 20px;
+    color: blue;
+}
+.Container{
+    height: 100vh;
+    max-width: 400px;
+    margin-right: 10cm;
+}
+.Container h3{
+    text-decoration: underline overline;
+    text-align: center;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    text-decoration: dotted underline;
+    text-box: green;
+    text-box-edge: underline;
+    flex-direction: column;
+}
+form button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: dotted;
+    text-align: center;
+}
+#task{
+    list-style-type: decimal;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: blue;
+    text-align: right;
+    text-decoration: aquamarine;
+    text-indent: justify;
+    flex-direction: column;
+}
+#task h4{
+    text-align: center;
+    text-decoration: underline;
+}
+#task li:hover{
+    color: red;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+#task li;active{
+    color: green;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    text-decoration: overline;
+}
