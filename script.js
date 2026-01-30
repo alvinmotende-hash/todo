@@ -43,4 +43,3 @@ console.log(person.name, person.age);
 person.age = 26;
 console.log(person.name);
 //function-block of code that performs a specific task
-function myAge(){
