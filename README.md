@@ -8,7 +8,7 @@ Use git clone in order to download the file
 ## Installation Requirements
 1.Git v-3.1
 ### Installation instruction
-1.Git clone {*https://github.com/alvinmotende-hash/Alvin.git*}
+1.Git clone {*https://github.com/alvinmotende-hash/todo.git*}
 2.Open project folder {*cd TODO-LIST*}
 ## Technologies used
 1.HTML
